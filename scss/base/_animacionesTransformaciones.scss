@@ -1,0 +1,47 @@
+/* ANIMACIÓN TURNOS */
+@mixin opacidadTurnos ($opacidad) {
+    opacity: $opacidad;
+}
+
+.tituloTurnos {
+    animation: titilar 3s;
+}
+
+@keyframes titilar {
+    0% {
+        @include opacidadTurnos(0);
+    }
+    20% {
+        @include opacidadTurnos(1);
+    }
+    40% {
+        @include opacidadTurnos(0);
+    }
+    60% {
+        @include opacidadTurnos(1);
+    }
+    80% {
+        @include opacidadTurnos(0);
+    }
+    100% {
+        @include opacidadTurnos(1);
+    }
+}
+/* TRANSFORMACIÓN Y TRANSICIÓN TRABAJOS */
+//Mixins 
+@mixin parametrosHover ($transforma, $transiciona) {
+    transform: $transforma;
+    transition: $transiciona;
+}
+.imgTrabajos:hover {
+    @include parametrosHover(scale(1.1), all 0.8s);
+}
+
+/* TRANSFORMACIÓN Y TRANSICIÓN FOOTER */
+.imgRedes:hover {
+    @include parametrosHover(scale(1.5), all 0.1s);
+}
+
+.imgLogo:hover {
+    @include parametrosHover(scale(1.1), all 0.1s);
+}

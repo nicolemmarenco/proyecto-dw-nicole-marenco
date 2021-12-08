@@ -1,0 +1,31 @@
+/* SECCION FAQ */
+.imgFAQ {
+    width: 90%;
+    margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.accordion {
+    margin-bottom: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: nth($paletaColores, 2);
+    font-size: 1.1em;
+}
+
+.accordion-button {
+
+color: nth($paletaColores, 1);
+font-size: 0.7em;
+}
+
+.accordion-button:not(.collapsed) {
+    color: nth($paletaColores, 1);
+    background-color: nth($paletaColores, 3);
+
+}
+
+.accordion-button:focus {
+    border-color: nth($paletaColores, 1);
+}

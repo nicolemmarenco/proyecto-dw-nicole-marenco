@@ -1,0 +1,303 @@
+/*MEDIA QUERY IPAD HEADER */
+@media only screen and (max-width: 768px) {
+    .linkMenuFooter {
+        text-decoration: none;
+        padding: 20px;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 1.3em;
+        color: #f8f4f4f3;
+      }
+      /* CLASES BOOTSTRAP */
+      .navNecke {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: unset;
+        padding-top: 15px;
+      }
+      .navNos {
+          margin-top: 25px;
+      }
+      .nav-item {
+          background-color:var(--colorHeaderFooter);
+          padding-left: 10px;
+      }
+}
+
+/*MEDIA QUERY IPHONE 6/7/8 PLUS HEADER */
+@media only screen and (max-width: 414px) {
+    .linkMenuFooter {
+        text-decoration: none;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 0.6em;
+        color: #f8f4f4f3;
+      } 
+      /* CLASES BOOTSTRAP */
+      .navNecke {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: unset;
+        padding-top: 7px;
+      }
+      .fontNav {
+          font-size: 10px;
+      }
+      .navNos {
+          margin-top: 16px;
+      }
+      .nav-item {
+          background-color:var(--colorHeaderFooter);
+          padding-left: 10px;
+      }
+}
+
+/*MEDIA QUERY IPAD HISTORIA*/
+@media only screen and (max-width: 768px) {
+    .tituloHistoria {
+       margin-top: 100px; 
+       padding-bottom: 8px;
+    }
+    /* CLASES BOOTSTRAP */
+    .carouselES {
+        margin-top: 40px;
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+        width: 100%;
+    }
+
+    .imgHistoria {
+        margin-bottom: 30px;
+        padding-bottom: 40px;
+    }
+
+    .parrafoHistoria {
+        margin-bottom: 70px;
+    } 
+}
+
+/*MEDIA QUERY IPHONE 6/7/8 PLUS HISTORIA */
+@media only screen and (max-width: 414px) {
+    .tituloHistoria {
+        margin-top: 50px;
+        font-size: 305%;
+    }
+    /* CLASES BOOTSTRAP */
+    .carouselES {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 100%;
+    }
+
+    .parrafoHistoria {
+        font-size: 1em;
+        margin-bottom: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .nav-item {
+        background-color:var(--colorHeaderFooter);
+        padding-left: 10px;
+    }
+}
+
+/*MEDIA QUERY IPAD FAQ*/
+@media only screen and (max-width: 768px) {
+    .faqContainer {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+        margin-top: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+        grid-template-areas: 
+        "imageFAQ imageFAQ"
+        "parrafo1 parrafo1"
+        "parrafo2 parrafo2"
+        "parrafo3 parrafo3";
+    }
+
+    .parrafo1 {
+        grid-area: parrafo1;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .parrafo2 {
+        grid-area: parrafo2;
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    
+    .parrafo3 {
+        grid-area: parrafo3;
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    
+    .imageFAQ {
+        grid-area: imageFAQ;
+    }
+    
+    .imgFAQ {
+        width: 100%;
+    }
+    
+    .parrafoFAQ {
+        color: #925faf;
+        font-size: 1.3em;
+        line-height: 1.6;
+    }
+    
+    .subtituloFAQ {
+        color: #3e0263;
+        margin-bottom: 3px;
+    }
+}
+
+/* Acá es donde me genera issue el como se ve en desktop!!!!!!!!
+.tituloFAQ {
+    margin-top: 80px;
+} */
+
+/*MEDIA QUERY IPHONE 6/7/8 PLUS FAQ*/
+@media only screen and (max-width: 414px) {
+    .tituloFAQ {
+        margin-top: 50px;
+        font-size: 300%;
+    }
+
+    .parrafoFAQ {
+        font-size: 1em;
+    }
+}
+
+/*MEDIA QUERY IPAD TURNOS*/
+@media only screen and (max-width: 768px) {
+    .tituloTurnos {
+        margin-top: 100px;
+    }
+
+    .formulario {
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+}
+
+/*MEDIA QUERY IPHONE 6/7/8 PLUS TURNOS */
+@media only screen and (max-width: 414px) {
+    .tituloTurnos {
+        margin-top: 60px;
+        font-size: 250%;
+    }
+    .parrafoFormulario {
+        color: #000000;
+}
+    .formulario {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+}
+
+/*MEDIA QUERY IPAD CONTACTO*/
+@media only screen and (max-width: 768px) {
+    .tituloContacto1 {
+        margin-top: 100px;
+    }
+
+    .tituloContacto {
+        margin-top: 30px;
+    }
+}
+
+/*MEDIA QUERY IPHONE 6/7/8 PLUS CONTACTO*/
+@media only screen and (max-width: 414px) {
+    .tituloContacto {
+        font-size: 305%;
+    }
+    .tituloContacto1 {
+        margin-top: 50px;
+        font-size: 305%;
+    }
+    .mapa {
+        width: 80%;
+    }
+
+    .parrafoContacto {
+        font-size: 1em;
+    }
+}
+
+/*MEDIA QUERY IPAD TRABAJOS*/
+@media only screen and (max-width: 768px) {
+    .tituloTrabajo {
+        margin-top: 100px
+    }
+
+    .parrafoTrabajo {
+        padding-bottom: 10px;
+        font-size: 1.6em;
+    }
+}
+/*MEDIA QUERY IPHONE 6/7/8 PLUS TRABAJOS */
+@media only screen and (max-width: 414px) {
+    .tituloTrabajo {
+        margin-top: 40px;
+        font-size: 305%;
+    }
+
+    .parrafoTrabajo {
+        font-size: 0.9em;
+    }
+
+    .gridContainer {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        grid-template-areas: 
+        "image1"
+        "image2" 
+        "image3" 
+        "image4"
+        "image5"
+        "image6";
+    }
+
+    .image1 {
+        grid-area: image1;
+        margin-left: 0px;
+    }
+    
+    .image2 {
+        grid-area: image2;
+    }
+    
+    .image3 {
+        grid-area: image3;
+        margin-right: 0px;
+    }
+    
+    .image4 {
+        grid-area: image4;
+        margin-left: 0px;
+    }
+    
+    .image5 {
+        grid-area: image5;
+    }
+    
+    .image6 {
+        grid-area: image6;
+        margin-right: 0px;
+    }
+}
+
+/*MEDIA QUERY IPHONE 6/7/8 PLUS FOOTER */
+@media only screen and (max-width: 414px) {
+    .imgLogo {
+        width: 8.5%;
+    }
+}
+

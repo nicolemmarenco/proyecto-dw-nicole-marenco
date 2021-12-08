@@ -1,0 +1,26 @@
+/* PAGINA TURNOS */
+
+.parrafoFormulario {
+    color: nth($paletaColores, 4);
+    line-height: 2;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.botonesForm {
+    margin-top: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bolder;
+    padding: 5px;
+}
+.formulario {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+form ul li {
+    list-style-type: none;
+}
+form {
+    text-align: center;
+}

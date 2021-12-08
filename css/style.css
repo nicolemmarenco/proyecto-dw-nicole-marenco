@@ -1,0 +1,492 @@
+@charset "UTF-8";
+/* SETEO DE FUENTES */
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+body {
+  font-family: 'Fjalla One', sans-serif; }
+
+/* PSEUDOCLASE :root - VARIABLES */
+:root {
+  --colorHeaderFooter: rgba(208, 162, 226, 0.911); }
+
+/* RESETEO POR DEFAULT */
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-image: url(../multimedia/waveline.svg);
+  background-size: 100%; }
+
+/* INICIO BOOTSTRAP */
+.bg-esTattoo {
+  background-color: var(--colorHeaderFooter);
+  width: 100%; }
+
+.navbarES {
+  justify-content: center; }
+
+.ulES {
+  margin-top: -10px;
+  margin-bottom: -10px; }
+
+.nav-item {
+  font-family: 'Source Sans Pro', sans-serif; }
+
+.nav-item:hover {
+  transition: all 0.5s;
+  transform: scale(1.1); }
+
+a {
+  color: #f8f4f4f3 !important;
+  font-weight: bolder; }
+
+a:hover {
+  color: #3e0263 !important; }
+
+/* FIN BOOTSTRAP */
+header {
+  background-color: var(--colorHeaderFooter);
+  position: fixed;
+  top: 0; }
+
+.bannerHeader {
+  width: 100%; }
+
+.navContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.menuContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin-top: 2px;
+  margin-bottom: 2px; }
+
+.linkMenuFooter {
+  text-decoration: none;
+  padding: 30px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1em;
+  color: #f8f4f4f3; }
+
+header nav ul .linkMenuFooter:hover {
+  color: #3e0263; }
+
+header {
+  z-index: 99; }
+
+/* TRANSFORMACIÓN Y TRANSICIÓN */
+.menuContainer li:hover {
+  transition: all 0.5s;
+  transform: scale(1.2); }
+
+/*TITULOS VARIOS*/
+/*Extends*/
+.tituloTrabajo, .tituloHistoria, .tituloFAQ, .tituloContacto, .tituloTurnos, .tituloContacto1 {
+  color: #3e0263;
+  font-size: 4.5em;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  font-style: italic;
+  line-height: 2;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 170px; }
+
+.tituloTrabajo {
+  margin-left: 30px;
+  margin-right: 30px; }
+
+.tituloContacto {
+  margin-top: 10px; }
+
+/* PARRAFOS VARIOS */
+/*Extends*/
+.parrafoHistoria, .parrafoTrabajo, .parrafoContacto {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bolder;
+  color: #925faf;
+  font-size: 1.3em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
+  text-align: center; }
+
+.parrafoTrabajo {
+  margin-left: 30px;
+  margin-right: 30px; }
+
+/* ZONA HISTORIA */
+/* INICIO BOOTSTRAP */
+.carouselES {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 80%; }
+
+/* SECCION FAQ */
+.imgFAQ {
+  width: 90%;
+  margin-bottom: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.accordion {
+  margin-bottom: 30px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #925faf;
+  font-size: 1.1em; }
+
+.accordion-button {
+  color: #3e0263;
+  font-size: 0.7em; }
+
+.accordion-button:not(.collapsed) {
+  color: #3e0263;
+  background-color: #f8f4f4f3; }
+
+.accordion-button:focus {
+  border-color: #3e0263; }
+
+/* PAGINA TURNOS */
+.parrafoFormulario {
+  color: #000000;
+  line-height: 2;
+  font-family: 'Roboto Condensed', sans-serif; }
+
+.botonesForm {
+  margin-top: 15px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bolder;
+  padding: 5px; }
+
+.formulario {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+form ul li {
+  list-style-type: none; }
+
+form {
+  text-align: center; }
+
+/* PAGINA CONTACTO */
+.alignContacto {
+  text-align: center; }
+
+.parrafoContacto {
+  text-align: center; }
+
+/* ZONA TRABAJOS */
+/* GRID */
+.gridContainer {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 30px;
+  grid-template-areas: "image1 image2 image3" "image4 image5 image6"; }
+
+.image1 {
+  grid-area: image1;
+  margin-left: 30px; }
+
+.image2 {
+  grid-area: image2; }
+
+.image3 {
+  grid-area: image3;
+  margin-right: 30px; }
+
+.image4 {
+  grid-area: image4;
+  margin-left: 30px; }
+
+.image5 {
+  grid-area: image5; }
+
+.image6 {
+  grid-area: image6;
+  margin-right: 30px; }
+
+.imgTrabajos {
+  width: 100%; }
+
+/* ZONA FOOTER */
+footer {
+  background-color: var(--colorHeaderFooter); }
+
+/* FLEXBOX */
+.redesContainer {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center; }
+
+.redes {
+  width: 100px;
+  display: flex;
+  justify-content: space-around; }
+
+.imgRedes {
+  width: 17px; }
+
+.imgLogo {
+  width: 3.5%;
+  margin-top: 8px; }
+
+.ESLogo {
+  text-align: center; }
+
+.pFooter {
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 0.6em;
+  color: #f8f4f4f3;
+  margin-bottom: 0px; }
+
+/*MEDIA QUERY IPAD HEADER */
+@media only screen and (max-width: 768px) {
+  .linkMenuFooter {
+    text-decoration: none;
+    padding: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.3em;
+    color: #f8f4f4f3; }
+  /* CLASES BOOTSTRAP */
+  .navNecke {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: unset;
+    padding-top: 15px; }
+  .navNos {
+    margin-top: 25px; }
+  .nav-item {
+    background-color: var(--colorHeaderFooter);
+    padding-left: 10px; } }
+
+/*MEDIA QUERY IPHONE 6/7/8 PLUS HEADER */
+@media only screen and (max-width: 414px) {
+  .linkMenuFooter {
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 0.6em;
+    color: #f8f4f4f3; }
+  /* CLASES BOOTSTRAP */
+  .navNecke {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: unset;
+    padding-top: 7px; }
+  .fontNav {
+    font-size: 10px; }
+  .navNos {
+    margin-top: 16px; }
+  .nav-item {
+    background-color: var(--colorHeaderFooter);
+    padding-left: 10px; } }
+
+/*MEDIA QUERY IPAD HISTORIA*/
+@media only screen and (max-width: 768px) {
+  .tituloHistoria {
+    margin-top: 100px;
+    padding-bottom: 8px; }
+  /* CLASES BOOTSTRAP */
+  .carouselES {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    width: 100%; }
+  .imgHistoria {
+    margin-bottom: 30px;
+    padding-bottom: 40px; }
+  .parrafoHistoria {
+    margin-bottom: 70px; } }
+
+/*MEDIA QUERY IPHONE 6/7/8 PLUS HISTORIA */
+@media only screen and (max-width: 414px) {
+  .tituloHistoria {
+    margin-top: 50px;
+    font-size: 305%; }
+  /* CLASES BOOTSTRAP */
+  .carouselES {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%; }
+  .parrafoHistoria {
+    font-size: 1em;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px; }
+  .nav-item {
+    background-color: var(--colorHeaderFooter);
+    padding-left: 10px; } }
+
+/*MEDIA QUERY IPAD FAQ*/
+@media only screen and (max-width: 768px) {
+  .faqContainer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    grid-template-areas: "imageFAQ imageFAQ" "parrafo1 parrafo1" "parrafo2 parrafo2" "parrafo3 parrafo3"; }
+  .parrafo1 {
+    grid-area: parrafo1;
+    margin-top: 20px;
+    margin-bottom: 10px; }
+  .parrafo2 {
+    grid-area: parrafo2;
+    margin-top: 15px;
+    margin-right: 10px; }
+  .parrafo3 {
+    grid-area: parrafo3;
+    margin-top: 15px;
+    margin-right: 10px; }
+  .imageFAQ {
+    grid-area: imageFAQ; }
+  .imgFAQ {
+    width: 100%; }
+  .parrafoFAQ {
+    color: #925faf;
+    font-size: 1.3em;
+    line-height: 1.6; }
+  .subtituloFAQ {
+    color: #3e0263;
+    margin-bottom: 3px; } }
+
+/* Acá es donde me genera issue el como se ve en desktop!!!!!!!!
+.tituloFAQ {
+    margin-top: 80px;
+} */
+/*MEDIA QUERY IPHONE 6/7/8 PLUS FAQ*/
+@media only screen and (max-width: 414px) {
+  .tituloFAQ {
+    margin-top: 50px;
+    font-size: 300%; }
+  .parrafoFAQ {
+    font-size: 1em; } }
+
+/*MEDIA QUERY IPAD TURNOS*/
+@media only screen and (max-width: 768px) {
+  .tituloTurnos {
+    margin-top: 100px; }
+  .formulario {
+    padding-top: 50px;
+    padding-bottom: 80px; } }
+
+/*MEDIA QUERY IPHONE 6/7/8 PLUS TURNOS */
+@media only screen and (max-width: 414px) {
+  .tituloTurnos {
+    margin-top: 60px;
+    font-size: 250%; }
+  .parrafoFormulario {
+    color: #000000; }
+  .formulario {
+    padding-top: 20px;
+    padding-bottom: 30px; } }
+
+/*MEDIA QUERY IPAD CONTACTO*/
+@media only screen and (max-width: 768px) {
+  .tituloContacto1 {
+    margin-top: 100px; }
+  .tituloContacto {
+    margin-top: 30px; } }
+
+/*MEDIA QUERY IPHONE 6/7/8 PLUS CONTACTO*/
+@media only screen and (max-width: 414px) {
+  .tituloContacto {
+    font-size: 305%; }
+  .tituloContacto1 {
+    margin-top: 50px;
+    font-size: 305%; }
+  .mapa {
+    width: 80%; }
+  .parrafoContacto {
+    font-size: 1em; } }
+
+/*MEDIA QUERY IPAD TRABAJOS*/
+@media only screen and (max-width: 768px) {
+  .tituloTrabajo {
+    margin-top: 100px; }
+  .parrafoTrabajo {
+    padding-bottom: 10px;
+    font-size: 1.6em; } }
+
+/*MEDIA QUERY IPHONE 6/7/8 PLUS TRABAJOS */
+@media only screen and (max-width: 414px) {
+  .tituloTrabajo {
+    margin-top: 40px;
+    font-size: 305%; }
+  .parrafoTrabajo {
+    font-size: 0.9em; }
+  .gridContainer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    grid-template-areas: "image1" "image2"  "image3"  "image4" "image5" "image6"; }
+  .image1 {
+    grid-area: image1;
+    margin-left: 0px; }
+  .image2 {
+    grid-area: image2; }
+  .image3 {
+    grid-area: image3;
+    margin-right: 0px; }
+  .image4 {
+    grid-area: image4;
+    margin-left: 0px; }
+  .image5 {
+    grid-area: image5; }
+  .image6 {
+    grid-area: image6;
+    margin-right: 0px; } }
+
+/*MEDIA QUERY IPHONE 6/7/8 PLUS FOOTER */
+@media only screen and (max-width: 414px) {
+  .imgLogo {
+    width: 8.5%; } }
+
+/* ANIMACIÓN TURNOS */
+.tituloTurnos {
+  animation: titilar 3s; }
+
+@keyframes titilar {
+  0% {
+    opacity: 0; }
+  20% {
+    opacity: 1; }
+  40% {
+    opacity: 0; }
+  60% {
+    opacity: 1; }
+  80% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/* TRANSFORMACIÓN Y TRANSICIÓN TRABAJOS */
+.imgTrabajos:hover {
+  transform: scale(1.1);
+  transition: all 0.8s; }
+
+/* TRANSFORMACIÓN Y TRANSICIÓN FOOTER */
+.imgRedes:hover {
+  transform: scale(1.5);
+  transition: all 0.1s; }
+
+.imgLogo:hover {
+  transform: scale(1.1);
+  transition: all 0.1s; }

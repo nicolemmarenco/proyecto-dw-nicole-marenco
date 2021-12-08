@@ -1,0 +1,77 @@
+/* INICIO BOOTSTRAP */
+.bg-esTattoo {
+    background-color: var(--colorHeaderFooter);
+    width: 100%;
+}
+
+.navbarES {
+    justify-content: center;
+}
+
+.ulES {
+   margin-top: -10px;
+   margin-bottom: -10px;
+}
+
+.nav-item {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.nav-item:hover {
+    transition: all 0.5s;
+      transform: scale(1.1);
+}
+
+a {
+    color: nth($paletaColores, 3) !important;
+    font-weight: bolder;
+}
+a:hover {color: nth($paletaColores, 1) !important}
+
+/* FIN BOOTSTRAP */
+
+header {
+    background-color: var(--colorHeaderFooter);
+    position: fixed;
+    top: 0;
+    }
+
+.bannerHeader {
+    width: 100%; 
+
+}
+
+.navContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menuContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+
+  .linkMenuFooter {
+    text-decoration: none;
+    padding: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1em;
+    color: nth($paletaColores, 3);
+  }
+
+  header nav ul .linkMenuFooter:hover  {color: nth($paletaColores, 1)}
+
+  header {
+      z-index: 99;
+  }
+
+  /* TRANSFORMACIÓN Y TRANSICIÓN */
+  .menuContainer li:hover {
+      transition: all 0.5s;
+      transform: scale(1.2);
+  }

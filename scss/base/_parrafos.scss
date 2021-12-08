@@ -1,0 +1,26 @@
+/* PARRAFOS VARIOS */
+/*Extends*/
+%parrafosVarios {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bolder;
+    color: nth($paletaColores, 2);
+    font-size: 1.3em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+    text-align: center;
+}
+.parrafoHistoria {
+    @extend %parrafosVarios;
+}
+.parrafoTrabajo {
+    @extend %parrafosVarios;
+}
+.parrafoContacto {
+    @extend %parrafosVarios;
+}
+.parrafoTrabajo {
+    margin-left: 30px;
+    margin-right: 30px;
+}

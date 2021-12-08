@@ -1,0 +1,40 @@
+/*TITULOS VARIOS*/
+/*Extends*/
+%titulosVarios {
+    color: nth($paletaColores, 1);
+    font-size: 4.5em;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-style: italic;
+    line-height: 2;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 170px;
+}
+
+.tituloTrabajo {
+    margin-left: 30px;
+    margin-right: 30px;
+    @extend %titulosVarios;
+}
+
+.tituloHistoria {
+    @extend %titulosVarios;
+}
+
+.tituloFAQ {
+    @extend %titulosVarios;
+}
+
+.tituloContacto {
+    margin-top: 10px;
+    @extend %titulosVarios;
+}
+
+.tituloTurnos {
+    @extend %titulosVarios;
+}
+
+.tituloContacto1 {
+    @extend %titulosVarios;
+}
