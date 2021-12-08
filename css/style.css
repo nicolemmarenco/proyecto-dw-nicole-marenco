@@ -85,6 +85,10 @@ header {
   transition: all 0.5s;
   transform: scale(1.2); }
 
+.nav-item:hover {
+  transition: none;
+  transform: none; }
+
 /*TITULOS VARIOS*/
 /*Extends*/
 .tituloTrabajo, .tituloHistoria, .tituloFAQ, .tituloContacto, .tituloTurnos, .tituloContacto1 {
