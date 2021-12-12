@@ -1,5 +1,5 @@
 <h1 align="center">Hola 👋, soy Nicole Marenco</h1>
-- Actualmente estoy estudiando **Desarrollo Web en Coderhouse**
+- Actualmente estoy estudiando **Desarrollo Web en Coderhouse y estoy realizando una página web sobre un estudio de tatuajes 🎨**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
