@@ -60,21 +60,16 @@
     }
     /* CLASES BOOTSTRAP */
     .carouselES {
-        margin-top: 40px;
-        margin-bottom: 50px;
-        padding-bottom: 50px;
+        margin-top: 10px;
+        margin-bottom: 30px;
         width: 100%;
     }
 
-    .imgHistoria {
-        margin-bottom: 30px;
-        padding-bottom: 40px;
-    }
-
     .parrafoHistoria {
-        margin-bottom: 70px;
+        margin-bottom: 20px;
     } 
 }
+
 
 /*MEDIA QUERY IPHONE 6/7/8 PLUS HISTORIA */
 @media only screen and (max-width: 414px) {
@@ -84,8 +79,8 @@
     }
     /* CLASES BOOTSTRAP */
     .carouselES {
-        margin-top: 40px;
-        margin-bottom: 40px;
+        margin-top: 5px;
+        margin-bottom: 20px;
         width: 100%;
     }
 
@@ -99,6 +94,25 @@
         background-color:var(--colorHeaderFooter);
         padding-left: 10px;
     }
+    .gridContainer1 {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        margin-bottom: 30px;
+        grid-template-areas: 
+        "gridHistoria1"
+        "gridHistoria2";
+    }
+    
+    .gridHistoria1 {
+        grid-area: gridHistoria1
+    }
+    
+    .gridHistoria2 {
+        grid-area: gridHistoria2;
+    }
+
 }
 
 /*MEDIA QUERY IPAD FAQ*/

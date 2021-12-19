@@ -1,7 +1,27 @@
 /* ZONA HISTORIA */
 /* INICIO BOOTSTRAP */
 .carouselES {
-    margin-top: 30px;
     margin-bottom: 30px;
-    width: 80%;
+}
+
+.gridContainer1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 30px;
+    grid-template-areas: 
+    "gridHistoria1 gridHistoria2";
+}
+
+.gridHistoria1 {
+    grid-area: gridHistoria1
+}
+
+.gridHistoria2 {
+    grid-area: gridHistoria2;
+}
+
+ .gridHistoria2, .gridHistoria1 {
+    text-align:justify;
 }

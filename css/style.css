@@ -129,9 +129,24 @@ header {
 /* ZONA HISTORIA */
 /* INICIO BOOTSTRAP */
 .carouselES {
-  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.gridContainer1 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
   margin-bottom: 30px;
-  width: 80%; }
+  grid-template-areas: "gridHistoria1 gridHistoria2"; }
+
+.gridHistoria1 {
+  grid-area: gridHistoria1; }
+
+.gridHistoria2 {
+  grid-area: gridHistoria2; }
+
+.gridHistoria2, .gridHistoria1 {
+  text-align: justify; }
 
 /* SECCION FAQ */
 .imgFAQ {
@@ -311,15 +326,11 @@ footer {
     padding-bottom: 8px; }
   /* CLASES BOOTSTRAP */
   .carouselES {
-    margin-top: 40px;
-    margin-bottom: 50px;
-    padding-bottom: 50px;
-    width: 100%; }
-  .imgHistoria {
+    margin-top: 10px;
     margin-bottom: 30px;
-    padding-bottom: 40px; }
+    width: 100%; }
   .parrafoHistoria {
-    margin-bottom: 70px; } }
+    margin-bottom: 20px; } }
 
 /*MEDIA QUERY IPHONE 6/7/8 PLUS HISTORIA */
 @media only screen and (max-width: 414px) {
@@ -328,8 +339,8 @@ footer {
     font-size: 305%; }
   /* CLASES BOOTSTRAP */
   .carouselES {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 5px;
+    margin-bottom: 20px;
     width: 100%; }
   .parrafoHistoria {
     font-size: 1em;
@@ -338,7 +349,18 @@ footer {
     margin-left: 10px; }
   .nav-item {
     background-color: var(--colorHeaderFooter);
-    padding-left: 10px; } }
+    padding-left: 10px; }
+  .gridContainer1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 30px;
+    grid-template-areas: "gridHistoria1" "gridHistoria2"; }
+  .gridHistoria1 {
+    grid-area: gridHistoria1; }
+  .gridHistoria2 {
+    grid-area: gridHistoria2; } }
 
 /*MEDIA QUERY IPAD FAQ*/
 @media only screen and (max-width: 768px) {
