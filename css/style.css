@@ -360,7 +360,9 @@ footer {
   .gridHistoria1 {
     grid-area: gridHistoria1; }
   .gridHistoria2 {
-    grid-area: gridHistoria2; } }
+    grid-area: gridHistoria2; }
+  .carousel-caption {
+    display: none; } }
 
 /*MEDIA QUERY IPAD FAQ*/
 @media only screen and (max-width: 768px) {
