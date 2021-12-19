@@ -1,26 +1,33 @@
 /* PAGINA TURNOS */
 
 .parrafoFormulario {
-    color: nth($paletaColores, 4);
-    line-height: 2;
+    color: #3e0263;
     font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 0.8rem;
+    margin-top: 0.8rem;
 }
 
-.botonesForm {
-    margin-top: 15px;
+.botonesForm1, .botonesForm2 {
+    margin-top: 5px;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: bolder;
-    padding: 5px;
+}
+
+.botonesForm1 {
+    color: white;
+    background-color: rgb(75, 136, 75);
+}
+
+.botonesForm2 {
+    color: white;
+    background-color: rgb(196, 79, 79);
 }
 .formulario {
     text-align: center;
-    padding-top: 40px;
+    padding-top: 25px;
     padding-bottom: 40px;
 }
 
 form ul li {
     list-style-type: none;
-}
-form {
-    text-align: center;
 }
