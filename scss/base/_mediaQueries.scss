@@ -85,7 +85,7 @@
     }
 
     .parrafoHistoria {
-        font-size: 1em;
+        font-size: 1.3em;
         margin-bottom: 20px;
         margin-right: 10px;
         margin-left: 10px;
@@ -209,6 +209,7 @@
     }
     .parrafoFormulario {
         color: #000000;
+        font-size: 1.3em;
 }
     .formulario {
         padding-top: 20px;
@@ -241,7 +242,7 @@
     }
 
     .parrafoContacto {
-        font-size: 1em;
+        font-size: 1.3em;
     }
 }
 
@@ -264,7 +265,7 @@
     }
 
     .parrafoTrabajo {
-        font-size: 0.9em;
+        font-size: 1.3em;
     }
 
     .gridContainer {
@@ -313,7 +314,14 @@
 /*MEDIA QUERY IPHONE 6/7/8 PLUS FOOTER */
 @media only screen and (max-width: 414px) {
     .imgLogo {
-        width: 8.5%;
+        width: 9%;
+    }
+    .imgRedes {
+        width: 22px;
+    }
+
+    .pFooter {
+        font-size: 0.9em;
     }
 }
 
